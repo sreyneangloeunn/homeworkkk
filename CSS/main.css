@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: rgba(0, 128, 128, 0.625);
+    gap: 50px;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+a:hover{
+    color: rgb(206, 188, 188);
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    padding-top: 40px;
+
+}
+h2{
+    text-align: center;
+    padding-top: 70px;
+    color: rgba(0, 0, 0, 0.795);
+}
+.box1{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+.box{
+    display: flex;
+    border: solid none;
+    border-radius: 20px;
+    width: 300px;
+    height: 30vh;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.class{
+    display: flex;
+}
+
+.box2{
+    padding-top: 25px;
+    margin-left: 20px;
+    
+}
+.box11{
+    border: solid none;
+    width: 130%;
+    height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h3{
+    font-size: 25px;
+    padding-top: 20px;
+}
+p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.box3{
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.box22, .box33, .box44{
+    border: solid none;
+    width: 500px;
+    height: 25vh;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 200px;
+}
+h4{
+   text-align: center;
+   padding-top: 160px;
+}
+h5{
+    text-align: center;
+    padding-top: 70px;
+}
+
+h6 {
+    font-size: 30px;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+    text-align: center;
+}
+table {
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table thead tr th {
+    padding: 10px;
+    text-align: start;
+}
+table tbody tr td {
+    padding: 10px;
+}
